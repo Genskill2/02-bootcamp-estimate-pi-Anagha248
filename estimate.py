@@ -5,7 +5,7 @@ import unittest
 def wallis(n):
     pi=1
     for i in range(1,n):
-       pi=pi*((4*(i**2))/((4*i**2)-1))
+       pi=pi*((4*(i**2))/((4*(i**2))-1))
     return(2*pi)  
 def monte_carlo(n):
     count=0
